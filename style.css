@@ -1,0 +1,164 @@
+body{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: auto;
+}
+
+.front{
+    display: flex;
+    background-color: #1F2937;
+    padding: 16px;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.left-header{
+    padding: 16px;
+    flex: 1;;
+}
+.hero{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.secondary-txt{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right-header{
+    flex: 1;
+    padding: 16px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.placeholder {
+    flex: 1;
+    background-color: #7e858b;
+    color: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 227px;
+    margin-top: 138px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5em;
+    margin-bottom: 10px;
+}
+
+.information{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 100px;
+}
+.info{
+    max-width: 200px;
+}
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    min-height: 400px;
+    flex-direction: column;
+}
+.words{
+    display: flex;
+    font-size: 36px;
+    font-weight: 100;
+    padding: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 50px;
+}
+.author{
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+}
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 24px;
+
+}
+.sign{
+    display: flex;
+    align-items: center;
+}
+.button2{
+    align-self:center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 24px;
+}
+.subscription{
+    display: flex;
+    margin: 85px 128px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 12px 72px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0;
+    padding:0
+}
+.noti{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+    padding:0;
+}
